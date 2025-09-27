@@ -26745,11 +26745,11 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
 	cr.plugins_.Particles,
-	cr.plugins_.Touch,
 	cr.plugins_.Spritefont2,
-	cr.plugins_.Text,
-	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.behaviors.Physics,
 	cr.behaviors.destroy,
 	cr.behaviors.solid,
@@ -26807,6 +26807,5 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Spritefont2.prototype.acts.SetX,
 	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.Browser.prototype.acts.ExecJs,
-	cr.plugins_.Text.prototype.exps.Text,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar
 ];};
